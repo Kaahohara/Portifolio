@@ -52,16 +52,16 @@ body {
 @font-face {
     font-family: 'round_style';
     src: url('fonts/round_style/RoundStyle-Book.ttf') format('truetype'); /* Substitua pelo caminho correto para a fonte e o formato correspondente */
-    /* Outros estilos opcionais, como font-weight e font-style, podem ser adicionados aqui */
+    /* Outros styles opcionais, como font-weight e font-style, podem ser adicionados aqui */
 }@font-face {
     font-family: 'Allura';
     src: url('fonts/Allura/Allura-Regular.ttf') format('truetype'); /* Substitua pelo caminho correto para a fonte e o formato correspondente */
-    /* Outros estilos opcionais, como font-weight e font-style, podem ser adicionados aqui */
+    /* Outros styles opcionais, como font-weight e font-style, podem ser adicionados aqui */
 }
 @font-face {
     font-family: 'vegapunk';
     src: url('fonts/vegapunk/Vegapunk-FREE.otf') format('truetype'); /* Substitua pelo caminho correto para a fonte e o formato correspondente */
-    /* Outros estilos opcionais, como font-weight e font-style, podem ser adicionados aqui */
+    /* Outros styles opcionais, como font-weight e font-style, podem ser adicionados aqui */
 }
 .subtitulo{
     font-family: 'Allura', sans-serif;

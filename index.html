@@ -51,8 +51,8 @@
     <hr style=" background-image: linear-gradient(to right, #8e2de2, #4a00e0);width: 100%; height: 2px; border: none; margin: 20px 0;border-radius: 10px;">
       
     <section id="about">
-        <div class="flex items-center justify-center pt-20">
-            <div class="w-1/2 text-white items-center justify-center">
+        <div class="lg:flex md:flex items-center justify-center pt-20">
+            <div class="lg:w-full p-8 sm:m-2 text-white items-center justify-center">
                 <p style="font-family: 'round_style', sans-serif;  font-size: 45px;   animation: go-back 1s; background-image: linear-gradient(to right, #8e2de2, #4a00e0); -webkit-background-clip: text; width: 100%;-webkit-text-fill-color: transparent;">
                     KARINA LIRA OHARA</p>
                 <p> I am a back-end developer with experience in CSS, SQL, Tailwind, Python, Django, PHP, and JavaScript programming.
@@ -66,8 +66,8 @@
                 </p>
                 <button class="mt-4 rounded bg-purple-500 p-2" id="btnDownload">Baixe meu Currículo</button>
             </div>
-            <div class="w-1/2 flex items-center justify-center">
-                <img class="" alt="foto_perfil" src='./logos/foto_perfil.png' width='52%' />
+            <div class="w-full flex items-center justify-center">
+                <img class="lg:block md:block hidden" alt="foto_perfil" src='./logos/foto_perfil.png' width='52%' />
             </div>  
         </div> 
         <div  class="flex justify-center items-center">
@@ -76,8 +76,9 @@
     </section>
     <div class="background">
         <section id="experience">                
-                <div class="flex mt-16 gap-16">
-                    <div class="w-1/2  mt-4 text-white items-center justify-center">
+                <div class="lg:flex mt-16 p-8 gap-16">
+                    <div class="lg:w-full">
+                        <div class=" w-full p-8 text-white  items-center lg:justify-left justify-center"> 
                         <p style="text-align:left;  font-size:22px;  font-family: 'round_style', sans-serif;">Education</p>
                         <p class=" mt-4" style="  font-weight: bold;
                         color: #d4d4d4;">UFSM- UNIVERSIDADE FEDERAL DE SANTA MARIA</p>
@@ -85,25 +86,26 @@
                     
                         <p class=" mt-4"  style="  font-weight: bold; color: #d4d4d4;">ETEC- FERRUCIO HUMBERTO GAZZETA</p>
                         <p style="color: #666;">During my technical vocational course focused on programming and software development, I gained experience in multiple programming languages such as CSS, Java, SQL, PHP, and many others. Additionally, I acquired a wide range of knowledge in methodologies, entrepreneurship, office productivity software, virtual machines, and the Linux operating system.</p>          
-        <div> 
-            <div class="flex mt-4 flex-wrap gap-6 justify-left">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/php_icon.png" alt="PHP">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/typescript.png" alt="TypeScript">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/tailwindw.jpg" alt="Tailwind CSS">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/python.jpeg" alt="Python">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/js.png" alt="JavaScript">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/github.png" alt="GitHub">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/mysql_icon.png" alt="MySQL">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/css_icon.png" alt="CSS">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/postgres_icon.png" alt="Postgres">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/wrike.png" alt="Wrike">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/vue.png" alt="Vue">
-                <img class="rounded-lg w-[120px] object-contain" src="./logos/html_icon.png" alt="HTML">
+                        </div> 
+                            <div> 
+            <div class="flex mt-8 lg:w-full flex-wrap gap-6 justify-center lg:justify-left">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/php_icon.png" alt="PHP">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/typescript.png" alt="TypeScript">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/tailwindw.jpg" alt="Tailwind CSS">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/python.jpeg" alt="Python">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/js.png" alt="JavaScript">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/github.png" alt="GitHub">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/mysql_icon.png" alt="MySQL">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/css_icon.png" alt="CSS">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/postgres_icon.png" alt="Postgres">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/wrike.png" alt="Wrike">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/vue.png" alt="Vue">
+                <img class="rounded-lg w-[100px] object-contain" src="./logos/html_icon.png" alt="HTML">
               </div>
       </div>
  </div>
 
- <div class="w-1/2  text-white  items-center justify-center">
+ <div class="lg:w-full sm:w-full p-8 text-white  items-center lg:justify-left justify-center">
         <p class=" mt-4" style="text-align:left; font-size:22px;  font-family: 'round_style', sans-serif;">Profissional Experience</p>
         <p class="font-bold mt-4 text-gray-300;">RNP</p>
         <p style="color: #666;">This project was selected in the public call of the Advanced Services PD&I Program from the National Research and Education Network (RNP) in collaboration with the startup Performance Vegetal. The project aims to develop a gamified platform to connect institutions in need of research projects, promoting social benefits for society as a whole</p>
@@ -125,10 +127,10 @@
 </section>
 <section id="certification">
 
-    <p class="text-white mt-16" style="text-align:left;font-size:22px;  font-family: 'round_style', sans-serif;">Certifications</p>
+    <p class="text-white mt-4 ml-16 " style="font-size:22px;  font-family: 'round_style', sans-serif;">Certifications</p>
     <div class="flex mt-4 flex-wrap gap-6 justify-center">
         <a href="https://learning.compass.uol/pluginfile.php/1/tool_certificate/issues/1737465077/3623470990KL.pdf" 
-           class="flex flex-col items-center w-[350px] bg-gray-800 rounded-lg p-4">
+           class="flex flex-col items-center w-3/4 lg:w-[350px] bg-gray-800 rounded-lg p-4">
           <img src="./logos/compass_uol_logo.jpeg" alt="UOL" width="90px" class="rounded-lg mb-2">
           <div class="text-center">
             <p class="font-semibold text-white">AI-Assisted</p>
@@ -137,7 +139,7 @@
         </a>
       
         <a href="https://ada.tech/certificado?xode=e06ec31c-c44e-a439-6a0c-c542b6920618" 
-           class="flex flex-col items-center w-[350px] bg-gray-800 rounded-lg p-4">
+           class="flex flex-col items-center w-3/4 lg:w-[350px] bg-gray-800 rounded-lg p-4">
           <img src="./logos/ada_logo.jpeg" alt="Ada Tech" width="90px" class="rounded-lg mb-2">
           <div class="text-center">
             <p class="font-semibold text-white">Trilha Digital | Coders 2024</p>
@@ -146,7 +148,7 @@
         </a>
       
         <a href="https://learning.compass.uol/pluginfile.php/1/tool_certificate/issues/1737506705/0212865128KL.pdf" 
-           class="flex flex-col items-center w-[350px] bg-gray-800 rounded-lg p-4">
+           class="flex flex-col items-center w-3/4 lg:w-[350px] bg-gray-800 rounded-lg p-4">
           <img src="./logos/compass_uol_logo.jpeg" alt="UOL" width="90px" class="rounded-lg mb-2">
           <div class="text-center">
             <p class="font-semibold text-white">GenAI - GenAI Technical Certification</p>
@@ -155,7 +157,7 @@
         </a>
       
         <a href="https://www.udemy.com/certificate/UC-b0389326-3b5c-4b5e-8cc9-d057d3b3e590/" 
-           class="flex flex-col items-center w-[350px] bg-gray-800 rounded-lg p-4">
+           class="flex flex-col items-center w-3/4 lg:w-[350px] bg-gray-800 rounded-lg p-4">
           <img src="./logos/udemy_logo.jpeg" alt="Udemy" width="90px" class="rounded-lg mb-2">
           <div class="text-center">
             <p class="font-semibold text-white">Curso de JavaScript e TypeScript do básico ao avançado JS/TS</p>
@@ -164,7 +166,7 @@
         </a>
       
         <a href="https://www.udemy.com/certificate/UC-5f15e3bb-b78b-4aa4-8f3f-6708b6614a79/" 
-           class="flex flex-col items-center w-[350px] bg-gray-800 rounded-lg p-4">
+           class="flex flex-col items-center w-3/4 lg:w-[350px] bg-gray-800 rounded-lg p-4">
           <img src="./logos/udemy_logo.jpeg" alt="Udemy" width="90px" class="rounded-lg mb-2">
           <div class="text-center">
             <p class="font-semibold text-white">Vue JS - Guia Completo (Vue CLI, Vue Router, Vuex e GraphQL)</p>
@@ -173,7 +175,7 @@
         </a>
       
         <a href="https://www.linkedin.com/learning/certificates/2807e5b54faf60a23ac298b81fecf846c0f7dc09413190897dfc811091869abb" 
-           class="flex flex-col items-center w-[350px] bg-gray-800 rounded-lg p-4">
+           class="flex flex-col items-center w-3/4 lg:w-[350px] bg-gray-800 rounded-lg p-4">
           <img src="./logos/linkeding.jpeg" alt="Linkeding" width="90px" class="rounded-lg mb-2">
           <div class="text-center">
             <p class="font-semibold text-white">Como Desenvolver sua Imagem Profissional</p>
@@ -184,41 +186,41 @@
       
 
         </section>
-        <p class="text-left text-white text-2xl mt-16 font-bold font-sans">Meus projetos</p>
+        <p class="text-left text-white text-2xl mt-16 ml-16 font-bold font-sans">Meus projetos</p>
 
         <section id="projects" class="py-6">
             <div class="flex mt-4 flex-wrap gap-6 justify-center">
 
-                <div class="bg-gray-800 p-6 rounded-lg w-[350px]">
+                <div class="bg-gray-800 p-6 rounded-lg w-3/4 lg:w-[350px]">
                     <a href="https://github.com/Kaahohara/Sinema" class="block">
                         <img src="./images/sinemaBlur.png" class="w-full h-auto rounded-lg" alt="Sinema - Projeto sobre cinema">
                     </a>
                     <p class="mt-4 text-white text-center">Sinema - Projeto sobre cinema</p>
                 </div>
         
-                <div class="bg-gray-800 p-6 rounded-lg w-[350px]">
+                <div class="bg-gray-800 p-6 rounded-lg w-3/4 lg:w-[350px]">
                     <a href="https://github.com/Kaahohara/NewZealand" class="block">
                         <img src="./images/NewZealandRectangle.png" class="w-full h-auto rounded-lg" alt="New Zealand - Projeto sobre turismo na Nova Zelândia">
                     </a>
                     <p class="mt-4 text-white text-center">New Zealand - Projeto sobre turismo na Nova Zelândia</p>
                 </div>
         
-                <div class="bg-gray-800 p-6 rounded-lg w-[350px]">
+                <div class="bg-gray-800 p-6 rounded-lg w-3/4 lg:w-[350px]">
                     <a href="https://github.com/Kaahohara/biblioteca" class="block">
                         <img src="./logos/biblioteca5.png" class="w-full h-auto rounded-lg" alt="Biblioteca - Projeto sobre gestão de livros">
                     </a>
                     <p class="mt-4 text-white text-center">Biblioteca - Projeto sobre gestão de livros</p>
                 </div>
-                <div class="bg-gray-800 p-6 rounded-lg w-[350px]">
+                <div class="bg-gray-800 p-6 rounded-lg w-3/4 lg:w-[350px]">
                         <img src="./images/achadosretangulo.png" class="w-full h-auto rounded-lg" alt="Achados e Baratos - Projeto de descontos e promoções">
                     <p class="mt-4 text-white text-center"> Ainda em Construção<br>Achados e Baratos - Projeto de descontos e promoções</p>
                 </div>
         
-                <div class="bg-gray-800 p-6 rounded-lg w-[350px]">
+                <div class="bg-gray-800 p-6 rounded-lg w-3/4 lg:w-[350px]">
                         <img src="./logos/underconstruction.png" class="w-full h-auto rounded-lg" alt="Achados e Baratos - Projeto de descontos e promoções">
                     <p class="mt-4 text-white text-center">Preço de Banana - Projeto de descontos e promoções</p>
                 </div>
-                <div class="bg-gray-800 p-6 rounded-lg w-[350px]">
+                <div class="bg-gray-800 p-6 rounded-lg w-3/4 lg:w-[350px]">
                         <img src="./logos/underconstruction.png" class="w-full h-auto rounded-lg" alt="Achados e Baratos - Projeto de descontos e promoções">
                         <p class="mt-4 text-white text-center">Sistema gamificado de postagem de atividades- Projeto acadêmico de conclusão de curso</p>
                 </div>

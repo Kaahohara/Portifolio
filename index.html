@@ -50,7 +50,7 @@
     <main>   
         <section id="about">
             <div class="lg:flex md:flex items-center justify-center pt-20">
-                <div class="lg:w-full p-8 sm:m-2 text-white items-center justify-center">
+                <div class="lg:w-full p-8 sm:m-2 md:m-2 text-white items-center justify-center">
                     <p style="font-family: 'round_style', sans-serif;  font-size: 45px;   animation: go-back 1s; background-image: linear-gradient(to right, #8e2de2, #4a00e0); -webkit-background-clip: text; width: 100%;-webkit-text-fill-color: transparent;">
                             KARINA LIRA OHARA</p>
                     <p> I am a back-end developer with experience in CSS, SQL, Tailwind, Python, Django, PHP, and JavaScript programming.
@@ -65,7 +65,7 @@
                     <button class="mt-4 rounded bg-purple-500 p-2" id="btnDownload">Download my Resume</button>
                 </div>
                 <div class="w-full flex items-center justify-center">
-                    <img class="lg:block md:block hidden" alt="foto_perfil" src='./logos/foto_perfil.png' width='52%' />
+                    <img class="lg:block md:hidden hidden" alt="foto_perfil" src='./logos/foto_perfil.png' width='52%' />
                 </div>  
             </div> 
             <div  class="flex justify-center items-center">
@@ -249,8 +249,9 @@
                     document.body.removeChild(link);
                 });
               
-          function toggleMenu() {
-            document.querySelector('.menu').classList.toggle('sandwich-open');
-          }
-        </script>
+                function toggleMenu() {
+                    var menu = document.getElementById("menu-sandwich");
+                    menu.classList.toggle("hidden");
+                }
+    </script>
       
